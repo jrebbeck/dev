@@ -19,18 +19,21 @@ struct ContentView: View {
                 Image("ruler")
                     .resizable()
                     .frame(width: 400, height: 150)
-                Text("Convert with feet and meters")
+                Text("Convert with meters and feet")
                 Spacer()
                 
-                    TextField("Enter feet", text: $value)
+                    TextField("Enter meters", text: $value)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .frame(width: 105, height: 150)
                         .padding()
-                Button("Calculate") {
-                    FinalVal = (Double(value) ?? 0.0) * Double(3.28)
+                Button() {
+                   FinalVal = (Double(value) ?? 0.0) * Double(3.281)
+                } label: {
+                    Text("Calculate")
                 }
+                .buttonStyle(BlueButton())
                 Text(String(FinalVal))
-                    Spacer()
+                     Spacer()
             }
             .padding()
             .background(Color.blue)
@@ -41,6 +44,16 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct BlueButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(Color(red: 0, green: 0, blue: 0.5))
+            .foregroundStyle(.white)
+            .clipShape(Capsule())
     }
 }
 
