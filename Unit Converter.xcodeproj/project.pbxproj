@@ -11,6 +11,7 @@
 		7344A2102B1F7FEA003BB1D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7344A20F2B1F7FEA003BB1D8 /* ContentView.swift */; };
 		7344A2122B1F7FEC003BB1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7344A2112B1F7FEC003BB1D8 /* Assets.xcassets */; };
 		7344A2162B1F7FEC003BB1D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7344A2152B1F7FEC003BB1D8 /* Preview Assets.xcassets */; };
+		7344A2382B30A082003BB1D8 /* feet to meters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7344A2372B30A082003BB1D8 /* feet to meters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7344A2112B1F7FEC003BB1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7344A2132B1F7FEC003BB1D8 /* Unit_Converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unit_Converter.entitlements; sourceTree = "<group>"; };
 		7344A2152B1F7FEC003BB1D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7344A2372B30A082003BB1D8 /* feet to meters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "feet to meters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				7344A20D2B1F7FEA003BB1D8 /* Unit_ConverterApp.swift */,
 				7344A20F2B1F7FEA003BB1D8 /* ContentView.swift */,
+				7344A2372B30A082003BB1D8 /* feet to meters.swift */,
 				7344A2112B1F7FEC003BB1D8 /* Assets.xcassets */,
 				7344A2132B1F7FEC003BB1D8 /* Unit_Converter.entitlements */,
 				7344A2142B1F7FEC003BB1D8 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7344A2102B1F7FEA003BB1D8 /* ContentView.swift in Sources */,
+				7344A2382B30A082003BB1D8 /* feet to meters.swift in Sources */,
 				7344A20E2B1F7FEA003BB1D8 /* Unit_ConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
